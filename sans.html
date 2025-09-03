@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Static Website</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body { background:#f8f9fa; }
+.hero { padding:60px 0; text-align:center; background:#214c8d; color:white; }
+.footer { background:#212529; color:white; text-align:center; padding:10px; margin- top:20px; }
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">MySite</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div id="menu" class="collapse navbar-collapse">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+ 
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Hero -->
+<div class="hero">
+<h1>Welcome to My Website</h1>
+<p class="lead">A simple static site using HTML, CSS & Bootstrap.</p>
+<a href="#about" class="btn btn-light">Learn More</a>
+</div>
+<!-- About -->
+<div id="about" class="container my-5 text-center">
+<h2>About Us</h2>
+<p>We build simple, responsive and user-friendly websites using modern tools like Bootstrap.
+Our goal is to make learning web development fun and easy.</p>
+</div>
+<!-- Services -->
+<div class="container my-5">
+<div class="row text-center">
+<div class="col-md-4"><div class="card p-3 shadow-sm">HTML Basics</div></div>
+<div class="col-md-4"><div class="card p-3 shadow-sm">CSS Styling</div></div>
+<div class="col-md-4"><div class="card p-3 shadow-sm">Bootstrap Layout</div></div>
+</div>
+</div>
+ 
+<!-- Contact -->
+<div id="contact" class="container my-5">
+<h2 class="text-center">Contact Us</h2>
+<form class="p-3 bg-light shadow-sm rounded">
+<input type="text" class="form-control mb-2" placeholder="Your Name">
+<input type="email" class="form-control mb-2" placeholder="Your Email">
+<textarea class="form-control mb-2" rows="3" placeholder="Message"></textarea>
+<button class="btn btn-primary">Send</button>
+</form>
+</div>
+<!-- Footer -->
+<div class="footer">© 2025 MySite. All Rights Reserved.</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
